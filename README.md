@@ -36,7 +36,7 @@ Siga estes passos para rodar o servidor da API na sua máquina.
 ### 1. Clonar o Repositório
 
 ```bash
-git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/gabrielnunes720/God-Level-Coder-Challenge.git)
 cd SEU_REPOSITORIO/backend
 ```
 
@@ -70,7 +70,7 @@ Abra o arquivo `backend/app/main.py` e edite o dicionário `DB_CONFIG` com as su
 ```python
 # Em backend/app/main.py
 DB_CONFIG = {
-    "dbname": "restaurantes_db",      # O nome do seu banco
+    "dbname": "postgres",      # O nome do seu banco
     "user": "postgres",              # Seu usuário do Postgres
     "password": "sua_senha_segura",  # Sua senha
     "host": "localhost",
