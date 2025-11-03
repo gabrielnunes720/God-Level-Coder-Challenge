@@ -1,0 +1,5 @@
+fastapi[all]
+uvicorn[standard]
+SQLalchemy
+psycopg2-binary
+faker
